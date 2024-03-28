@@ -1,6 +1,28 @@
 {
   "posts": [
-    { "id": "1", "userId": "20", "title": "a title", "body": 100 },
-    { "id": "2", "userId": "20", "title": "another title", "body": 200 }
+    {
+      "id": 1,
+      "userId": 10,
+      "title": "a title",
+      "body": "test 1"
+    },
+    {
+      "id": 2,
+      "userId": 20,
+      "title": "another title",
+      "body": "test 2"
+    },
+    {
+      "id": 103.87212620651765,
+      "title": "a",
+      "body": "ff",
+      "userId": 217.07410280263593
+    },
+    {
+      "id": 459.9737431250179,
+      "title": "test 4",
+      "body": "test444444",
+      "userId": 754.8333868371695
+    }
   ]
 }
