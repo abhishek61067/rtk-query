@@ -8,7 +8,7 @@ const App = () => {
   const [body, setBody] = useState("");
 
   // handler for form submit
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     const post: Post = {
       title,
