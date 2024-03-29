@@ -18,6 +18,13 @@ const App = () => {
     };
     console.log(title, body);
     postPosts(post);
+    resetForm();
+  };
+
+  // reset form
+  const resetForm = () => {
+    setTitle("");
+    setBody("");
   };
 
   const { isFetching, isError, isSuccess, data, error } = useGetPostsQuery("");
