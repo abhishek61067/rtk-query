@@ -4,7 +4,6 @@ import { userSlice } from "../features/testSlice";
 
 export const store = configureStore({
   reducer: {
-    [userSlice.name]: userSlice.reducer,
     [myApi.reducerPath]: myApi.reducer, // Use the created `rootReducer` here to combine all
   },
   middleware: (defmid) => {
