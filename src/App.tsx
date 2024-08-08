@@ -1,6 +1,7 @@
 import { useState } from "react";
 import PostCard from "./components/PostCard";
 import { useGetPostsQuery, usePostPostsMutation } from "./redux/api";
+import { Post } from "./types/post";
 
 const App = () => {
   // states of form
@@ -41,6 +42,7 @@ const App = () => {
           onChange={(e) => {
             setTitle(e.currentTarget.value);
           }}
+          value={title}
         />
         <br />
         <input
@@ -49,6 +51,7 @@ const App = () => {
           onChange={(e) => {
             setBody(e.currentTarget.value);
           }}
+          value={body}
         />
         <button type="submit">Submit</button>
       </form>
