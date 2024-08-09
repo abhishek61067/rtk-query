@@ -1,3 +1,5 @@
+import { Post } from "../types/post";
+
 const PostCard = (post: Post) => {
   return (
     <div>
